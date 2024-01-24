@@ -15,7 +15,7 @@ Before you begin, collect the following hardware:
 
 ## Flash the Board
 
-Follow [this link](#https://coral.ai/docs/dev-board/get-started/#flash-the-board) to flash the board.
+Follow [this link](https://coral.ai/docs/dev-board/get-started/#flash-the-board) to flash the board.
 
 ## Install MDT (on Host Computer)
 
