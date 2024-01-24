@@ -35,12 +35,12 @@ $ echo "alias mdt='winpty mdt'" >> ~/.bash_profile
 $ source ~/.bash_profile
 ```
 
-###Connect to the Board's Shell via MDT
+### Connect to the Board's Shell via MDT
+
 For macOS 10.15 (Catalina) and later, USB-based MDT connections are not supported. Instead, MDT functions over the local network. 
 
-    - Connect the board to your computer using a USB-C cable to the board's "OTG" port. 
-
-    - On your host computer terminal, verify that MDT detects your board:
+- Connect the board to your computer using a USB-C cable to the board's "OTG" port. 
+- On your host computer terminal, verify that MDT detects your board:
     
 ```bash
 $ mdt devices
