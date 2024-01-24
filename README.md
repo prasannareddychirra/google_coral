@@ -27,9 +27,9 @@ Open a terminal and execute the following commands:
 $ python3 -m pip install --user mendel-development-tool
 $ echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.bash_profile
 $ source ~/.bash_profile
-
+```
 ### Windows:
-
+```bash
 $ python3 -m pip install --user mendel-development-tool
 $ echo "alias mdt='winpty mdt'" >> ~/.bash_profile
 $ source ~/.bash_profile
