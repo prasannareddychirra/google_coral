@@ -1,7 +1,8 @@
 # Google Coral Dev Board Setup Guide
 
 ### 1. Requirements
-<span style="color:red">Note: Do not power the board or connect any cables until instructed to do so.</span>
+
+``Note: Do not power the board or connect any cables until instructed to do so.``
 
 
 Before you begin, collect the following hardware:
@@ -45,10 +46,12 @@ For macOS 10.15 (Catalina) and later, USB-based MDT connections are not supporte
 ```bash
 $ mdt devices
 ```
+![Devices list](/images/mdt_shell.png) 
 - Initiate the device shell using MDT
 ```bash
 $ mdt shell
 ```
+![Connect to the shell](/images/mdt_shell1.png) 
 ### 5. Connect to the Internet
 To connect the Coral board to the internet, you can use Ethernet or Wi-Fi depending on your setup. 
 
@@ -58,6 +61,7 @@ Follow [this link](https://coral.ai/docs/dev-board/get-started/#connect-internet
 ```bash
 $ nmcli connection show
 ```
+![Network Connection](network.png) 
 
 ### 6. Update the Mendal Software and Dependencies.
 ```bash
@@ -82,4 +86,8 @@ $ edgetpu_demo –device
 This displays the demo directly on the connected monitor. 
 
 ### 8. Run a model using the PyCoral API
+
+![Macaw](/images/macaw.png) 
+![Result 1](/images/result1.png) 
+![Result 2](/images/result2.png) 
 
