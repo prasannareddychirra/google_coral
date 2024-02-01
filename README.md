@@ -1,8 +1,8 @@
 # Google Coral Dev Board Setup Guide
 
-## 1. Requirements
+### 1. Requirements
+<span style="color:red">Note: Do not power the board or connect any cables until instructed to do so.</span>
 
-**Note: Do not power the board or connect any cables until instructed to do so.**
 
 Before you begin, collect the following hardware:
 
