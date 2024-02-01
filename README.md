@@ -26,7 +26,7 @@ Open a terminal and execute the following commands:
 
 ```shell
 $ python3 -m pip install --user mendel-development-tool
-$ echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.shell_profile
+$ echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.bash_profile
 $ source ~/.bash_profile
 ```
 #### Windows:
