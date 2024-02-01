@@ -24,14 +24,14 @@ Follow [this link](https://coral.ai/docs/dev-board/get-started/#flash-the-board)
 
 Open a terminal and execute the following commands:
 
-```bash
+```shell
 $ python3 -m pip install --user mendel-development-tool
-$ echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.bash_profile
+$ echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.shell_profile
 $ source ~/.bash_profile
 ```
 #### Windows:
 
-```bash
+```shell
 $ python3 -m pip install --user mendel-development-tool
 $ echo "alias mdt='winpty mdt'" >> ~/.bash_profile
 $ source ~/.bash_profile
@@ -44,14 +44,14 @@ For macOS 10.15 (Catalina) and later, USB-based MDT connections are not supporte
 - Connect the board to your computer using a USB-C cable to the board's "OTG" port. 
 - On your host computer terminal, verify that MDT detects your board:
     
-```bash
+```shell
 $ mdt devices
 ```
 ![Devices list](/images/mdt_shell.png) 
 
 - Initiate the device shell using MDT
 
-```bash
+```shell
 $ mdt shell
 ```
 ![Connect to the shell](/images/mdt_shell1.png) 
@@ -63,7 +63,7 @@ To connect the Coral board to the internet, you can use Ethernet or Wi-Fi depend
 Follow [this link](https://coral.ai/docs/dev-board/get-started/#connect-internet) for detailed information
 
 - Verify the connection:
-```bash
+```shell
 $ nmcli connection show
 ```
 
@@ -72,7 +72,7 @@ $ nmcli connection show
 
 #### 6. Update the Mendal Software and Dependencies.
 
-```bash
+```shell
 $ sudo apt-get update 
  
 $ sudo apt-get dist-upgrade
@@ -82,7 +82,7 @@ $ sudo apt-get dist-upgrade
 
 - In Dev board terminal
 
-```bash
+```shell
 $ edgetpu_demo –stream
 ```
 If connected via MDT over USB On your desktop (connected to the Dev Board via USB), open http://192.168.100.2:4664 in a web browser. 
@@ -90,7 +90,7 @@ This should display a video playing in your browser. The demo uses a pre-recorde
 
 - If you have a monitor attached to the Dev Board, you can see the demo directly on that screen.
 
-```bash
+```shell
 $ edgetpu_demo –device
 ```
 This displays the demo directly on the connected monitor. 
@@ -143,18 +143,18 @@ It will prompt you black screen.
 - Install the mendel-development tool 
 
  
-```bash
+```shell
 prasannareddy@Prasi ~ % pip install mendel-development-tool 
 ```
  
 - Export the mdt path to the .bash_profile 
-```bash
+```shell
  prasannareddy@Prasi ~ % export PATH="/Users/prasannareddy/Library/Python/3.10/bin:$PATH" 
 ```
 
 - After editing the file, apply the changes to be effected.
 
-```bash
+```shell
 source ~/.bash_profile. 
 ```
  
