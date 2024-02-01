@@ -62,7 +62,7 @@ Follow [this link](https://coral.ai/docs/dev-board/get-started/#connect-internet
 $ nmcli connection show
 ```
 
-![Network Connection](network.png) 
+![Network Connection](/images/network.png) 
 
 
 ### 6. Update the Mendal Software and Dependencies.
@@ -90,6 +90,8 @@ This displays the demo directly on the connected monitor.
 ### 8. Run a model using the PyCoral API
 
 ![Macaw](/images/macaw.jpg) 
+
 ![Result 1](/images/result1.png) 
+
 ![Result 2](/images/result2.png) 
 
